@@ -46,8 +46,5 @@ Network Trash Folder
 Temporary Items
 .apdisk
 platforms/
-plugins/
-plugins/android.json
-plugins/ios.json
 www/
 node_modules/
