@@ -1,0 +1,47 @@
+<ion-header>
+    <ion-navbar color="primary">
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>:: i-LTC ::</ion-title>
+    </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+    <ion-list>
+        <ion-list-header>
+            Main Menu
+        </ion-list-header>
+        <ion-item class="button">
+            <ion-thumbnail item-left>
+                <img src="../../assets/img/hhc.jpg">
+            </ion-thumbnail>
+            <h2>Home Health Care</h2>
+            <p>บันทึกเยี่ยมบ้าน</p>
+        </ion-item>
+        <ion-item class="button" (click)="goToHealthScreen()">
+            <ion-thumbnail item-left>
+                <img src="../../assets/img/first-aid-icon.png">
+            </ion-thumbnail>
+            <h2>Health Screen</h2>
+            <p>คัดกรองภาวะสุขภาพผู้สูงอายุุ</p>
+        </ion-item>
+
+        <ion-item class="button">
+            <ion-thumbnail item-left>
+                <img src="../../assets/img/report-icon.png">
+            </ion-thumbnail>
+            <h2>Summary Report</h2>
+            <p>รายงานสรุปผลการคัดกรองภาวะสุขภาพผู้สูงอายุุ</p>
+        </ion-item>
+
+        <ion-item class="button">
+            <ion-thumbnail item-left>
+                <img src="../../assets/img/tools.png">
+            </ion-thumbnail>
+            <h2>Systems Tools</h2>
+            <p>เครื่องมือจัดการระบบ</p>
+        </ion-item>
+    </ion-list>
+</ion-content>
